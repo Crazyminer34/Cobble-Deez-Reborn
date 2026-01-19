@@ -24,9 +24,13 @@ body:
       label: Additional Context
     validations:
       required: false
-  - type: markdown
+  - type: textarea
+    id: textarea-3
     attributes:
-      value: "**Screenshots**"
+      label: Screenshots (if aplicable)
+      description: Paste your screenshots here
+    validations:
+      required: false
   - type: checkboxes
     id: checkboxes-4
     attributes:
@@ -38,3 +42,4 @@ body:
         - label: This is a server side issue
     validations:
       required: true
+
