@@ -4,7 +4,7 @@ description: Help Improve the Cobble Deez server
 projects: []
 labels:
   - bug
-assignees: crazyminer34zach
+assignees: Crazyminer34
 body:
   - type: textarea
     id: textarea-0
