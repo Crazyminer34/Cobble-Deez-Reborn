@@ -1,0 +1,5 @@
+{
+    hudColor: "pokemon",
+    panorama: false,
+    boostClickSound: false
+}

@@ -1,0 +1,5 @@
+{
+  "com.terraformersmc.modmenu.gui.ModsScreen": false,
+  "level_loading_screen": true,
+  "options_screen": false
+}

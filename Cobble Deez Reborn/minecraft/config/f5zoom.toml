@@ -1,0 +1,9 @@
+currentDistance = 0.0
+
+[minDistance]
+enabled = true
+distance = 0.0
+
+[maxDistance]
+enabled = true
+distance = 10.0

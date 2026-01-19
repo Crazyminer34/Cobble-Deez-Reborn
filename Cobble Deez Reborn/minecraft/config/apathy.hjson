@@ -1,0 +1,17 @@
+{
+	/* This is the default behaviour for all mobs.
+	   You can configure multiple behaviours for any MobEntity
+	   The key is either null or an Identifier of a mob, the value is an array of behaviours described later
+	*/
+	"null": [
+		{
+			/* This is the type of a behaviour
+			   Allowed values are: do_not_follow, if_block_broken, if_item_selected
+			   For if_block_broken, if_item_selected you must include the maximal_reaction_distance property
+			   For if_block_broken you must include reaction_block property which is an Identifier of a block
+			   For if_item_selected you can include reaction_item which is an Identifier of an item and reaction_item_count to form ItemStack, else it is interpreted as any item amount
+			*/
+			"type": "do_not_follow"
+		}
+	]
+}
