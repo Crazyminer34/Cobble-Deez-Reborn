@@ -16,8 +16,6 @@ body:
     id: textarea-1
     attributes:
       label: "Steps to Reproduce:"
-      description: create a step by step guide on how to find the issue, if you dont
-        know what causes the issue, leave this empty
   - type: textarea
     id: textarea-2
     attributes:
