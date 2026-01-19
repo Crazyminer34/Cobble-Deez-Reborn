@@ -1,0 +1,40 @@
+name: bug report
+title: Bug Report
+description: Help Improve the Cobble Deez server
+projects: []
+labels:
+  - bug
+assignees: crazyminer34zach
+body:
+  - type: textarea
+    id: textarea-0
+    attributes:
+      label: Describe the issue
+    validations:
+      required: true
+  - type: textarea
+    id: textarea-1
+    attributes:
+      label: "Steps to Reproduce:"
+      description: create a step by step guide on how to find the issue, if you dont
+        know what causes the issue, leave this empty
+  - type: textarea
+    id: textarea-2
+    attributes:
+      label: Additional Context
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: "**Screenshots**"
+  - type: checkboxes
+    id: checkboxes-4
+    attributes:
+      label: Issue type
+      description: A client side issue may be textures, crashes, or weird behavior,
+        serverside is literally anything else
+      options:
+        - label: This is a client side issue
+        - label: This is a server side issue
+    validations:
+      required: true
